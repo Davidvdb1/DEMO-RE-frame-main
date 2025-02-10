@@ -1,15 +1,21 @@
 //#region IMPORTS
-import "./Components/titelComponent/titelComponent.js"
-import "./Components/ctaComponent/ctaComponent.js"
-import "./Components/infoComponent/infoComponent.js"
-import "./Components/sloganComponent/sloganComponent.js"
-import "./Components/modulebalkComponent.js"
+import "./Apps/Home/home.js"
+import "../../Components/titelComponent/titelComponent.js"
+import "../../Components/ctaComponent/ctaComponent.js"
+import "../../Components/infoComponent/infoComponent.js"
+import "../../Components/sloganComponent/sloganComponent.js"
+import "../../Components/modulebalkComponent.js"
 //#endregion IMPORTS
 
 //#region TEMPLATE
 let template = document.createElement('template');
 template.innerHTML = /*html*/`
-    <home-ɮ-ɠ></home-ɮ-ɠ>
+    <home-ɮ></home-ɮ>
+    <titel-ɠ></titel-ɠ>
+    <slogan-ɠ></slogan-ɠ>
+    <info-ɠ></info-ɠ>
+    <modulebalk-ɠ></modulebalk-ɠ>
+    <cta-ɠ></cta-ɠ>
     `;
 //#endregion TEMPLATE
 //#region CLASS

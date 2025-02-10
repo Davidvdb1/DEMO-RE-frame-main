@@ -1,4 +1,9 @@
 //#region IMPORTS
+import "../../Components/titelComponent/titelComponent.js"
+import "../../Components/ctaComponent/ctaComponent.js"
+import "../../Components/infoComponent/infoComponent.js"
+import "../../Components/sloganComponent/sloganComponent.js"
+import "../../Components/modulebalkComponent.js"
 //#endregion IMPORTS
 
 //#region TEMPLATE

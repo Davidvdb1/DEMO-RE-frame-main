@@ -1,5 +1,5 @@
 //#region IMPORTS
-import "./moduleComponent.js"
+import "../../Components/moduleComponent/moduleComponent.js"
 //#endregion IMPORTS
 
 //#region TEMPLATE
