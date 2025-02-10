@@ -4,16 +4,17 @@
 //#region TEMPLATE
 let template = document.createElement('template');
 template.innerHTML = /*html*/`
-<titel-ɠ></titel-ɠ>
-<slogan-ɠ></slogan-ɠ>
-<info-ɠ></info-ɠ>
-<modulebalk-ɠ></modulebalk-ɠ>
-<cta-ɠ></cta-ɠ>
+    <style>
+        @import './components/template/style.css';
+    </style>
+
+    <div class="example">
+    </div>
 `;
 //#endregion TEMPLATE
 
 //#region CLASS
-window.customElements.define('home-ɮ', class extends HTMLElement {
+window.customElements.define('example-ɠ', class extends HTMLElement {
     constructor() {
         super();
         this._shadowRoot = this.attachShadow({ 'mode': 'open' });

@@ -1,4 +1,5 @@
 //#region IMPORTS
+import "./moduleComponent.js"
 //#endregion IMPORTS
 
 //#region TEMPLATE
@@ -6,23 +7,18 @@ let template = document.createElement('template');
 template.innerHTML = /*html*/`
     <style>
         @import './components/template/style.css';
-                div {
-            border: 2px solid pink;
-            border-radius: 15px 0px 15px 0px;
-            margin: 25px;
-            padding: 10px;
-            text-align: center;
-            float: left;
-        }
     </style>
+
 <div>
-Ik ben een module
+<modulecomponent-ɠ></modulecomponent-ɠ>
+<modulecomponent-ɠ></modulecomponent-ɠ>
 </div>
+
 `;
 //#endregion TEMPLATE
 
 //#region CLASS
-window.customElements.define('modulecomponent-ɠ', class extends HTMLElement {
+window.customElements.define('modulebalk-ɠ', class extends HTMLElement {
     constructor() {
         super();
         this._shadowRoot = this.attachShadow({ 'mode': 'open' });

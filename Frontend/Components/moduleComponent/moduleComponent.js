@@ -6,18 +6,15 @@ let template = document.createElement('template');
 template.innerHTML = /*html*/`
     <style>
         @import './components/template/style.css';
-        div {
-            text-align: center;
-        }
     </style>
 <div>
-Ik ben een slogan
+Ik ben een module
 </div>
 `;
 //#endregion TEMPLATE
 
 //#region CLASS
-window.customElements.define('slogan-ɠ', class extends HTMLElement {
+window.customElements.define('modulecomponent-ɠ', class extends HTMLElement {
     constructor() {
         super();
         this._shadowRoot = this.attachShadow({ 'mode': 'open' });

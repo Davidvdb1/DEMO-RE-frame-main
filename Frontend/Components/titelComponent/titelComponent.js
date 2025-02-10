@@ -6,12 +6,6 @@ let template = document.createElement('template');
 template.innerHTML = /*html*/`
     <style>
         @import './components/template/style.css';
-        div {
-            border: 2px solid pink;
-            margin: 25px;
-            padding: 50px;
-            text-align: center;
-        }
     </style>
 <div>
 <h1>TITEL</h1>

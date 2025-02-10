@@ -1,5 +1,4 @@
 //#region IMPORTS
-import "./moduleComponent.js"
 //#endregion IMPORTS
 
 //#region TEMPLATE
@@ -7,19 +6,15 @@ let template = document.createElement('template');
 template.innerHTML = /*html*/`
     <style>
         @import './components/template/style.css';
-
     </style>
-
 <div>
-<modulecomponent-ɠ></modulecomponent-ɠ>
-<modulecomponent-ɠ></modulecomponent-ɠ>
+Ik ben een slogan
 </div>
-
 `;
 //#endregion TEMPLATE
 
 //#region CLASS
-window.customElements.define('modulebalk-ɠ', class extends HTMLElement {
+window.customElements.define('slogan-ɠ', class extends HTMLElement {
     constructor() {
         super();
         this._shadowRoot = this.attachShadow({ 'mode': 'open' });

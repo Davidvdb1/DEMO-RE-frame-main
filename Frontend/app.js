@@ -1,19 +1,15 @@
 //#region IMPORTS
-import "./Components/titelComponent.js"
-import "./Components/ctaComponent.js"
-import "./Components/infoComponent.js"
-import "./Components/sloganComponent.js"
+import "./Components/titelComponent/titelComponent.js"
+import "./Components/ctaComponent/ctaComponent.js"
+import "./Components/infoComponent/infoComponent.js"
+import "./Components/sloganComponent/sloganComponent.js"
 import "./Components/modulebalkComponent.js"
 //#endregion IMPORTS
 
 //#region TEMPLATE
 let template = document.createElement('template');
 template.innerHTML = /*html*/`
-    <titel-ɠ></titel-ɠ>
-    <slogan-ɠ></slogan-ɠ>
-    <info-ɠ></info-ɠ>
-    <modulebalk-ɠ></modulebalk-ɠ>
-    <cta-ɠ></cta-ɠ>
+    <home-ɮ-ɠ></home-ɮ-ɠ>
     `;
 //#endregion TEMPLATE
 //#region CLASS
