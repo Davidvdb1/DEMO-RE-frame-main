@@ -6,7 +6,7 @@ import "../../Components/moduleComponent/moduleComponent.js"
 let template = document.createElement('template');
 template.innerHTML = /*html*/`
     <style>
-        @import './components/template/style.css';
+        @import './components/modulebalkComponent/style.css';
     </style>
 
 <div>

@@ -5,7 +5,7 @@
 let template = document.createElement('template');
 template.innerHTML = /*html*/`
     <style>
-        @import './components/template/style.css';
+        @import './components/ctaComponent/style.css';
     </style>
 <div>
 Ik ben een cta-button

@@ -5,7 +5,7 @@
 let template = document.createElement('template');
 template.innerHTML = /*html*/`
     <style>
-        @import './components/template/style.css';
+        @import './components/titelComponent/style.css';
     </style>
 <div>
 <h1>TITEL</h1>

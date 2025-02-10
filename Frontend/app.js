@@ -5,8 +5,7 @@ import "./Apps/Home/home.js"
 //#region TEMPLATE
 let template = document.createElement('template');
 template.innerHTML = /*html*/`
-Ik ben de main component en ik ben zichtbaar
-    
+<home-ɮ></home-ɮ>
     `;
 //#endregion TEMPLATE
 //#region CLASS
